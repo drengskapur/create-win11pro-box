@@ -122,10 +122,10 @@ Get-AppxPackage * -AllUsers | Remove-AppxPackage -ErrorAction SilentlyContinue -
 ###############################################################################
 $paths = @(
 
-  # registry key for last used files
+  # registry key for recent files
   "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HomeFolderDesktop\NameSpace\DelegateFolders\{3134ef9c-6b18-4996-ad04-ed5912e00eb5}"
 
-  # registry key for last used folders
+  # registry key for recent folders
   "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HomeFolderDesktop\NameSpace\DelegateFolders\{3936E9E4-D92C-4EEE-A85A-BC16D5EA0819}"
 
   # swap file
